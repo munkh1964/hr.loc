@@ -46,7 +46,7 @@ const toggleMenu = () => {
     <div
       class="text-gray-300 text-sm flex items-center gap-x-4 place-content-between cursor-pointer p-2 hover:bg-light-white rounded-md mt-2"
     >
-      <Link class="flex gap-x-4" :href="route(href)">
+      <Link class="flex gap-x-4 " :href="route(href)">
         <component
           :class="['w-6 h-6 text-2xl block float-left']"
           :is="icon"
